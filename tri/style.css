@@ -1,0 +1,62 @@
+body{font-family: Arial, Helvetica,sans-serif;padding: 0;margin: 0;background-color: #f4f4f4;height: 400px}
+/* Global */
+.container{width: 80%;margin: auto;overflow: hidden;}
+ul{margin: 0;padding: 0;}
+.button_1{height: 38px;background: #e8491d;border: 0;
+padding-left: 20px;padding-right: 20px;color: #ffffff;}
+.dark{padding: 15px;background: #35424a;margin-bottom: 10px;margin-top: 10px;color: #ffffff;}
+
+/* Header */
+header{background: #35424a;color: #ffffff;padding-top: 30px;min-height: 70px;border-bottom: #e8491d 3px solid;}
+header a{color: #ffffff;text-decoration: none;text-transform: uppercase;font-size: 16px;}
+header ul{margin: 0;padding: 0;}
+header li{float: left;display: inline;padding: 0 20px 0 20px;}
+header #branding{float: left;}
+header #branding h1{margin: 0;}
+header nav{float: right;margin-top: 10px;}
+header .highlight, header .current a{color: #e8491d;font-weight: bold;}
+header a:hover{color: #cccccc;font-weight: bold;}
+#showcase{min-height: 10px;background:black no-repeat 0-100px;text-align: center;color: #ffffff;}
+#showcase h1{margin-top: 100px;font-size: 55px;margin-bottom: 10px;}
+#showcase p{font-size: 20px;}
+#newsletter{padding: 15px;color: #ffffff;background: #35424a;}
+#newsletter h1{float: left;background: black;border-radius: 30%;}
+
+#newsletter form{float: right;margin-top: 13px;margin-right: 60px;}
+#newsletter input[type="email"]{padding: 4px;height: 25px;width: 250px;}
+/* Boxes */
+#boxes{margin-top: 20px;background: white;}
+#boxes h3{color: black;font-weight: bold;}
+#boxes p{color: black;}
+#boxes .box{float: left;text-align: center;width: 30%;padding: 10px;}
+#boxes .box img{width: 90px;}
+/* Sidebar */
+aside#sidebar{float: right;width: 30%;margin-top: 10px;}
+/* Main-col */
+article#main-col{float: left;width: 65%;}
+/* Services */
+ul#services{list-style: none;padding: 20px;border: #cccccc solid 1px;margin-bottom: 5px;background: #e6e6e6;}
+/*footer styling code*/
+      footer {color: #fff;background: #333;position: relative; /* required to position the copyright at the bottom */font-size: 80%;}
+      .footer-copyright {width: 97.5%;height: 25px;background: #111;/* positions the copyright at the bottom of the footer */padding: 10px;position: absolute;bottom: 0px;left: 0px;}
+      .footer-body {margin-bottom: 40px;height: 60px;padding: 30px;}
+      .footer-body > div:first-child {font-size: 150%;}
+      .footer-body ul {list-style-type: none; margin: 0px;padding: 0px;text-align: center;} 
+      .footer-body li > a {color: white;text-decoration: none;margin-bottom: 7px;}
+
+/* Media Queries */
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	#newsletter h1,
+	#newsletter form,
+	#boxes .box,
+	article#main-col,
+	aside#sidebar,
+	header nav li{float: none;text-align: center;width: 100%;}
+	header{padding-bottom: 20px;}
+	#showcase h1{margin-top: 40px;}
+	#newsletter button, .quote button{display: block;width: 100%;}
+	#newsletter form input[type="email"]{width: 100%;margin-bottom: 5px;}
+	
+}

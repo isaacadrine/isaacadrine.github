@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creating Functions</title> 
+    <link rel="stylesheet" type="text/css" href="one-page-wonder.min.css">
+ </head>
+<!---Styling Content---->
+ <style type="text/css">
+      body {
+         background: black;
+
+         margin-left: 400px;
+         margin-right: 300px;
+      }
+      div.container {
+         position: relative;
+         width: 500px;
+         height: 300px;
+         background: #903C56;
+      }
+      div.absolute {
+         position: absolute;
+         bottom: 10px;
+         right: 10px;
+         width: 200px;
+         height: 200px;
+         background: black;
+      }
+      h2,h1{
+         font-weight: bold;
+         color: yellow;
+         font-family: algerian;
+
+      }
+      p {
+         color: white;
+      }
+      h3 {
+         color: green;
+      }
+      ul{
+         color: hotpink;
+      }
+      
+   </style>
+ <body>
+
+      <div class="container">
+          <?php include'nav.php'; ?>
+         <h1>Creating Functions In PHP</h1>
+         <p>
+            Creating functions is the easiest thing that i have ever seen in PHP. This is so if you're well vassed with the language of PHP..<br>
+            <h3>Steps Taken:</h3>
+            <ul>
+               <li>Analyse the need to be met..</li>
+               <li>Find the possible requirements needed..</li>
+            </ul>
+
+         </p>
+
+         <div class="absolute">
+            <h2>TIPS Of the Day</h2>
+            <p>
+               Any function you create simply, it is interpleted and then parsed by the PHP parser at the time of execution.
+            </p>
+
+         </div>
+            <?php include'footer.php'; ?>
+      </div>   
+ </body>
+ </html>

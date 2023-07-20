@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>process</title>
+   <link rel="stylesheet" type="text/css" href="_pages/main2.css">
+</head>
+<!--In-line block styling-->
+   <style type="text/css">
+      fieldset{background:black;}
+      body {background: black;margin-left: 400px; margin-right: 300px;}
+      div.container {position: relative;width: 500px;height: 300px;background: #903C56;}
+      div.absolute {position: absolute;bottom: 10px;right: 10px;width: 200px;height: 200px;background: black;}
+      h2,h1{font-weight: bold;color: yellow;font-family: algerian;}
+      p {color: white;}
+      h3 {color: green;}
+      ul{color: hotpink;}
+      label{color: green;font-weight: bold;}
+      legend {color: hotpink;font-weight: bold;}
+      input{border-radius: 40px;} 
+      marquee{background: grey;border-radius: 40%;}
+      h1{color:indigo ;text-shadow: 2px 2px 4px;font-family: algerian;font-weight: bold;font-style: italic;}
+   </style>
+<!--End-->
+<form class="rt">
+<body>
+<!---page-redirect--->
+   <script type="text/javascript">
+      <!--
+         function Redirect(){
+            window.location="C:\\Users\\mukiibi_isaac4\\Desktop\\skyscrip_hotel\\_pages/ftabout/about.html";
+         }
+         document.write("<h3>You will be redirected to the main page in 30 sec.</h3>");
+         setTimeout('Redirect()', 10000);
+      //-->
+   </script>
+<!--End----->
+   <fieldset class="">
+   <!--Header Element- and Navigation-->
+      <header>
+         <!-- Adding a marquee -->
+         <marquee >
+            <h1></h1>
+         </marquee>
+<!----Main Content----->
+   <div class="class">
+      <p><a id="top"></a>
+   <header class="2">
+      <p>||Mukiibi Isaac</p>
+<!--print jobs-->
+   <form>
+      <input type="button" value="Print" onclick="window.print()"/>
+   </form>
+<!--end--->
+      <fieldset style="height: 150px;">
+      <h1 style="font-size: 50px;color: yellow;text-align: center;">SKYSCRIP HOTEL</h1>
+      <p>The Best Meal Ever!!</p>
+   </header>
+      <!--Navigation Block-->
+         <nav>
+            <!--?php include'_includes/nav.php';?> -->
+            <div class="dd">
+               <button class="dd-btn">Hover</button>
+               <div class="dd-content"> 
+                   <a href="C:\Users\mukiibi_isaac4\Desktop\skyscrip_hotel\index.html">home</a>     
+                  <a href="_pages/menu.html">menu</a>
+                  <a href="_pages/employ.html">employee</a>
+                  <a href="_pages/branc.html">branc</a>
+                  <a href="#">details</a>         
+               </div>
+         </nav>
+      <!--main content-->
+            <section>
+            <?php # Script 1.2 - process-form.php
+// Create a shorthand for the form data
+            $name = $_REQUEST['name'];
+            $radius= $_REQUEST['radius'];
+            $height = $_REQUEST['height'];
+            $pi=3.14;
+            $volume = $pi*$radius*$radius*$height;
+
+//printing the output value
+               echo "<fieldset><p>Thank you, <b>$name</b>,
+for the following radius given:<br />
+ <tt>$radius cm and the height of $height cm.</tt></p>
+ <p>And so, now we are to get the volume---See below--<br>
+ The volume is got from the formula;<br> Vol=pi*r*r*h..<br>So, from the above input, the volume of the cylinder =
+<i>$volume cm</i>.</p></fieldset>\n";
+            
+             ?>
+        </section>
+      <!---end---->
+    
+      <!-- The Image section -->
+         <aside>
+            
+         </aside>
+      <!--end---->
+      <!-- absolute Content -->
+         <section>
+            <div class="absolute">
+               <h2>TIPS Of the Day</h2>
+               <p>
+                 There is nothing that can ever control what you want to be except you!! Every time make decisions of what you wanna be by yourself..
+               </p>
+            </div>
+         </section>
+      <!-- End of the second section -->
+      </main>
+
+   <!--Footer Content---->
+<footer>
+   <style type="text/css">
+      footer {background: #903C56;border-radius: 30px;text-align: center;height: 280px;}
+      a{color: green;font-weight: bold;}
+      a:hover {color:yellow; }
+   </style> 
+<p style="font-weight: bold;color: yellow;">Skyscrip Hotel<br>Motivation Study--2023<br>Designed by the Manager</p>
+        <p>For Contact, <br>Use: <a href="tel:0700891661">0700891661</a><br>Or: <a href="mailto:Mukiibiisaacbrax283@gmail.com">Mukiibiisaacbrax283@gmail.com</a>
+        <br style="font-weight: bold;">And you will be in position to contact us, Thank you so much for the Visit!!
+         <div class="footer-body">
+            <ul>
+               <li><a href="_includes/_pages/ftabout/about.html"> About </a></li>
+               <li><a href="_includes/_pages/ftabout/contact.html"> Contact </a></li>
+               <li><a href="#"> Terms & Conditions </a></li>   
+             </ul>
+         </div>
+            <div class="footer-copyright">
+               Copyright ©2023 || All Rights Reserved 
+            </div>
+        </p>
+</footer>
+   </fieldset>
+</body>
+</form>
+</html>

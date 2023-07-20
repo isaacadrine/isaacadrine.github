@@ -1,0 +1,49 @@
+
+      .rt{background: 2px yellow;}
+      main {flex: 1 0 auto;}
+/*footer styling code*/
+      footer {color: #fff;background: #333;position: relative; /* required to position the copyright at the bottom */font-size: 80%;}
+      .footer-copyright {width: 97.5%;height: 20px;background: #111;/* positions the copyright at the bottom of the footer */padding: 10px;position: absolute;bottom: 0px;left: 0px;}
+      .footer-body {margin-bottom: 40px;height: 50px;padding: 30px;}
+      .footer-body > div:first-child {font-size: 150%;}
+      .footer-body ul {list-style-type: none; margin: 0px;padding: 0px;text-align: center;} 
+      .footer-body li > a {color: white;text-decoration: none;margin-bottom: 7px;}
+/*body styling code*/ 
+      body {background: black;margin-left: 240px;margin-right: 300px;}
+      .frame {border-left: 5px solid green;border-bottom: 6px solid yellow;height: 570px;background: papayawhip;}
+      .fd{font-weight: bold;background: orange;}
+      td{background: #5476CDB2;border: 4px solid pink;}
+      .sp,.bd {font-weight: bold;background: brown;}
+      .nm{background:#3235D2C3 ;color: white;font-weight: bold;}
+      fieldset{margin-left25px;border-radius:25px;}
+      h2,h1{font-weight:bold;color:yellow;font-family:algerian;}
+      p{color:white;}
+      h3{color:green;}
+      ul{color:hotpink;}
+/*division styling*/
+      div.class{background:green;color:white;}
+      div.container{position:relative;width:500px;height:300px;background:#903C56;}
+      div.absolute{position: absolute;bottom: 10px;right: 10px;width: 200px;height: 200px; background: black;}
+/*table code*/
+      table{border: 4px solid darkblue;margin-left: 32px;cursor: ;}
+      img{width:590px ;height: 52px;}
+      th{border: 3px solid black;background: black;color: White;}
+      td{color:white;}
+      tbody{border: 2px solid pink;text-align: center;}
+
+/*button styles */
+      .dd { position:relative; width:200px;height:3px;text-align:center;display:inline-block;}
+      .dd-btn {padding: 15px;text-align: center;background: #173459; border: none;width: 220px;color: #f8f9f9;border-radius:30px;}
+      .dd-content {position:absolute;display:none;border-radius:30px;width:100%;box-shadow:0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);}
+      .dd:hover > .dd-content {display: block;}
+      .dd-content > a {display: block;padding: 15px;text-decoration: none;color: yellow;background: black;border-radius:10px;}
+      a:active{text-decoration:underline;border:5px solid yellow;background:#d9534f;color:yellow;}
+      .dd-content > a:hover {color: white;background: #9034DE;border-radius:30px;}
+/*footer styles*/
+      footer{color: #fff;background: #333;position: relative; /* required to position the copyright at the bottom */font-size: 80%;}
+      .footer-copyright {width: 96%;height: 40px;background: #111;/* positions the copyright at the bottom of the footer */padding: 10px;position: absolute;bottom: 0px;left: 0px;}
+      .footer-body {margin-bottom: 40px;height: 150px;padding: 30px;}
+      .footer-body > div:first-child {font-size: 150%;}
+      .footer-body ul {list-style-type: none;margin: 0px;padding: 0px;text-align: center;}
+      .footer-body li > a {color: white;text-decoration: none;margin-bottom: 7px;}
+   /*End of it*/
